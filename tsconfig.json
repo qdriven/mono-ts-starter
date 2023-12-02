@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.build.json",
+
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@fluentapp/components/*": ["packages/components/src/*"],
+      "@fluentapp/*": ["packages/*/src"]
+    },
+    "noEmit": true
+  }
+}

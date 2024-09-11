@@ -1,11 +1,15 @@
 # README
 
-mono project starters
+mono project starters, include UI, components, project templates.
+
+- [] ts lib starters
+- [] UI starters
+  - [] nextjs,shadn-ui project starter
+  - [] components
+- [] Apps
+ - [] Blog
+ - [] Workspace
 
 
-## Add Other starter project
 
-- add ts lib 
-```sh
-fluent starter ts
-```
+

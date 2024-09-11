@@ -1,3 +1,6 @@
 [submodule "tools/ts-lib-starter"]
 	path = tools/ts-lib-starter
 	url = https://github.com/fluent-qa/ts-lib-starter
+[submodule "tools/fe-next-starter"]
+	path = tools/fe-next-starter
+	url = https://github.com/fluent-qa/fe-next-starter.git

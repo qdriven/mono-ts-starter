@@ -1,0 +1,3 @@
+[submodule "tools/ts-lib-starter"]
+	path = tools/ts-lib-starter
+	url = https://github.com/fluent-qa/ts-lib-starter

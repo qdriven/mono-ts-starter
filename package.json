@@ -37,7 +37,7 @@
     "eslint-config-fluent": "workspace:*",
     "husky": "^9.1.5",
     "lint-staged": "^15.2.10",
-    "next": "15.0.0-canary.23",
+    "next": "15.0.0-rc.0",
     "playwright": "^1.47.0",
     "prettier": "3.3.3",
     "publint": "0.2.10",

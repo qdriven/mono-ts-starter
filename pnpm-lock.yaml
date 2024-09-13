@@ -63,22 +63,7 @@ importers:
         specifier: 2.0.5
         version: 2.0.5(@types/node@22.5.4)
 
-  tools/eslint-config:
-    dependencies:
-      eslint-config-next:
-        specifier: ^14.2.3
-        version: 14.2.9(eslint@9.10.0(jiti@1.21.6))(typescript@5.6.2)
-      eslint-config-prettier:
-        specifier: ^8.3.0
-        version: 8.10.0(eslint@9.10.0(jiti@1.21.6))
-      eslint-config-turbo:
-        specifier: ^1.13.3
-        version: 1.13.4(eslint@9.10.0(jiti@1.21.6))
-      eslint-plugin-react:
-        specifier: 7.34.1
-        version: 7.34.1(eslint@9.10.0(jiti@1.21.6))
-
-  tools/fe-next-starter:
+  apps/revisited:
     dependencies:
       '@hookform/resolvers':
         specifier: ^3.9.0
@@ -285,6 +270,21 @@ importers:
       typescript:
         specifier: ^5
         version: 5.6.2
+
+  tools/eslint-config:
+    dependencies:
+      eslint-config-next:
+        specifier: ^14.2.3
+        version: 14.2.9(eslint@9.10.0(jiti@1.21.6))(typescript@5.6.2)
+      eslint-config-prettier:
+        specifier: ^8.3.0
+        version: 8.10.0(eslint@9.10.0(jiti@1.21.6))
+      eslint-config-turbo:
+        specifier: ^1.13.3
+        version: 1.13.4(eslint@9.10.0(jiti@1.21.6))
+      eslint-plugin-react:
+        specifier: 7.34.1
+        version: 7.34.1(eslint@9.10.0(jiti@1.21.6))
 
   tools/ts-lib-starter:
     dependencies:

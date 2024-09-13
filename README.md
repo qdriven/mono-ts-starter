@@ -12,4 +12,7 @@ mono project starters, include UI, components, project templates.
 
 
 
+## References
+
+- [shoetrak-monorepo](https://github.com/sistemas-shoetrak/shoetrak-monorepo.git)
 

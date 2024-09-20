@@ -38,7 +38,7 @@
     "husky": "^9.1.5",
     "lint-staged": "^15.2.10",
     "next": "15.0.0-canary.23",
-    "playwright": "^1.47.0",
+    "playwright": "^1.47.2",
     "prettier": "3.3.3",
     "publint": "0.2.10",
     "react": "19.0.0-rc-cc1ec60d0d-20240607",

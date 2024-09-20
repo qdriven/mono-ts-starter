@@ -39,8 +39,8 @@ importers:
         specifier: 15.0.0-canary.23
         version: 15.0.0-canary.23(@playwright/test@1.47.0)(react-dom@19.0.0-rc-cc1ec60d0d-20240607(react@19.0.0-rc-cc1ec60d0d-20240607))(react@19.0.0-rc-cc1ec60d0d-20240607)
       playwright:
-        specifier: ^1.47.0
-        version: 1.47.0
+        specifier: ^1.47.2
+        version: 1.47.2
       prettier:
         specifier: 3.3.3
         version: 3.3.3
@@ -4237,8 +4237,18 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
+  playwright-core@1.47.2:
+    resolution: {integrity: sha512-3JvMfF+9LJfe16l7AbSmU555PaTl2tPyQsVInqm3id16pdDfvZ8TTZ/pyzmkbDrZTQefyzU7AIHlZqQnxpqHVQ==}
+    engines: {node: '>=18'}
+    hasBin: true
+
   playwright@1.47.0:
     resolution: {integrity: sha512-jOWiRq2pdNAX/mwLiwFYnPHpEZ4rM+fRSQpRHwEwZlP2PUANvL3+aJOF/bvISMhFD30rqMxUB4RJx9aQbfh4Ww==}
+    engines: {node: '>=18'}
+    hasBin: true
+
+  playwright@1.47.2:
+    resolution: {integrity: sha512-nx1cLMmQWqmA3UsnjaaokyoUpdVaaDhJhMoxX2qj3McpjnsqFHs516QAKYhqHAgOP+oCFTEOCOAaD1RgD/RQfA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -9729,9 +9739,17 @@ snapshots:
 
   playwright-core@1.47.0: {}
 
+  playwright-core@1.47.2: {}
+
   playwright@1.47.0:
     dependencies:
       playwright-core: 1.47.0
+    optionalDependencies:
+      fsevents: 2.3.2
+
+  playwright@1.47.2:
+    dependencies:
+      playwright-core: 1.47.2
     optionalDependencies:
       fsevents: 2.3.2
 
